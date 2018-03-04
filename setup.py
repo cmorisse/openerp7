@@ -116,7 +116,6 @@ setup(
     packages=find_packages(),
     package_dir={'%s' % lib_name: 'openerp'},
     include_package_data=True,
-    dependency_links=['http://download.gna.org/pychart/'],
     install_requires=[
         'babel',
         'docutils',
